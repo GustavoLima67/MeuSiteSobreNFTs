@@ -4,6 +4,14 @@ body {
     height: 100%;
     background-size: cover;
 }
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+ul {
+    padding: 0px;
+}
 .menu-principal {
     margin: 0%;
     width: 100%;
@@ -13,20 +21,47 @@ body {
 .logo {
     margin: 0%; 
     height: 60px;
-    width: 70px;
+    width: 10%;
+    float: left;
+}
+.redes-sociais ul li {
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
 }
 .redes-sociais {
     margin: 15px;
-    display: inline-block;
+    float: right;
     height: 30px;
+}
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;   
+}
+.menu-Urls {
+    height: 80px;
+    border-bottom:10px solid #efefefef;
+}   
+.menu {
+    width: 70%;
+    float: left;
+}
+.menu ul li {
+    margin-left: 5px;
+    display: inline-block;
+    color: rgb(97, 97, 138);
+}
+.menu ul li a {
+    color: rgb(9, 5, 253);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.busca {
+    width:20%;
     float: right;
 }
-.menu {
-    display: inline-block;
-    color: rgb(97, 97, 138);
-}
-.menu ul li{
-    margin: 5px;
-    display: inline-block;
-    color: rgb(97, 97, 138);
+.co-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
