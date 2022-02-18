@@ -4,3 +4,5 @@ Um projeto com HTML, CSS e JavaScript, falando sobre NFTs, uma site realmente co
 * **HTML**
 * **CSS**
 * **JavaScript**
+
+# No momento eu ainda terminei mais está com essa cara
