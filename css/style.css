@@ -42,11 +42,12 @@ ul {
     border-bottom:10px solid #efefefef;
 }   
 .menu {
+    margin-left: 80px;
     width: 70%;
     float: left;
 }
 .menu ul li {
-    margin-left: 30px;
+    margin-left: 50px;
     display: inline-block;
     color: rgb(97, 97, 138);
 }
@@ -56,8 +57,15 @@ ul {
     text-transform: uppercase;
 }
 .busca {
-    margin: 15px;
+    text-align: center;
     float: right;
+    margin-right: 83px;
+}
+.busca input {
+    height: 20px;
+    padding-left: 15px;
+    width: 150px;
+    margin-top: 13px;
 }
 .co-100 {
     width: 100%;
