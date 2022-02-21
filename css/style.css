@@ -24,9 +24,10 @@ ul {
     float: left;
 }
 .redes-sociais ul li {
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
     float: left;
+    list-style: none;
 }
 .redes-sociais {
     margin: 15px;
@@ -50,22 +51,36 @@ ul {
     margin-left: 50px;
     display: inline-block;
     color: rgb(97, 97, 138);
+    height: 30px;
+}
+.menu ul li:hover {
+    border-bottom: 2px solid rgb(255, 187, 0);
+}
+.menu ul li a:hover {
+    color: rgb(255, 187, 0);
 }
 .menu ul li a {
-    color: rgb(9, 5, 253);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     text-transform: uppercase;
 }
 .busca {
     text-align: center;
     float: right;
-    margin-right: 83px;
+    margin-right: 40px;
 }
 .busca input {
     height: 20px;
     padding-left: 15px;
     width: 150px;
     margin-top: 13px;
+    border: 3px solid rgb(128, 141, 141);
+}
+.busca img {
+    margin-top: 8px;
+    margin-left: 5px;
+    height: 40px;
+    float: right;
 }
 .co-100 {
     width: 100%;
