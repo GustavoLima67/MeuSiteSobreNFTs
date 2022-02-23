@@ -15,7 +15,7 @@ ul {
 .menu-principal {
     margin: 0%;
     width: 100%;
-    background-color: rgba(236, 150, 51, 0.979);
+    background-color: rgb(236, 150, 51, 0.979);
     height: 60px;
 }
 .logo {
@@ -86,4 +86,16 @@ ul {
     width: 100%;
     float: left;
     position: relative;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 100px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/SetaDireita.jpg');
+    top: 35%;
+    right: 0;
 }
