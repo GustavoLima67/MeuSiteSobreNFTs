@@ -87,6 +87,18 @@ ul {
     float: left;
     position: relative;
 }
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 60px;
+    height: 100px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    margin-top: 15%;
+    left: 15%;
+}
 button.slick-next {
     font-size: 0px;
     border: none;
@@ -95,7 +107,7 @@ button.slick-next {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url('../img/SetaDireita.jpg');
-    top: 35%;
-    right: 0;
+    background-image: url('../img/posterior.png');
+    margin-top: 15%;
+    right: 15%;
 }
