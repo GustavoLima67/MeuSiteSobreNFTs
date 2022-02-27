@@ -50,7 +50,7 @@ ul {
 .menu ul li {
     margin-left: 50px;
     display: inline-block;
-    color: rgb(97, 97, 138);
+    color: rgb(94, 94, 124);
     height: 30px;
 }
 .menu ul li:hover {
@@ -93,7 +93,7 @@ button.slick-prev {
     width: 60px;
     height: 100px;
     z-index: 9;
-    background-color: transparent;
+    background-color: black;
     position: absolute;
     background-image: url('../img/anterior.png');
     margin-top: 15%;
@@ -105,7 +105,7 @@ button.slick-next {
     width: 60px;
     height: 100px;
     z-index: 9;
-    background-color: transparent;
+    background-color: black;
     position: absolute;
     background-image: url('../img/posterior.png');
     margin-top: 15%;
